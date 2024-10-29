@@ -1,0 +1,56 @@
+/* Основной стиль */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-pubg.jpg'); /* Замените на фоновое изображение PUBG */
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка */
+.title {
+    text-align: center;
+    font-size: 3em;
+    color: pink; /* Розовый цвет для SkittlesS */
+    margin: 20px 0;
+}
+
+/* Навигация */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcccc;
+    font-size: 1.2em;
+}
+
+/* Языковой переключатель */
+.language-switcher {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.language-switcher button {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.language-switcher button:hover {
+    background-color: #ff3333;
+}
